@@ -24,7 +24,7 @@ jobs:
         uses: kuhnroyal/flutter-fvm-config-action@v2
         id: fvm-config-action
         with:
-          path: 'some-path/.fvmrc'
+          path: '.fvmrc'
       - name: install Flutter Version
         uses: subosito/flutter-action@v2
         with:
